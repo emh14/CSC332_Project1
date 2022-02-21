@@ -1,0 +1,5 @@
+This project is an accessibility mouse for disabled individuals who may be missing or have limited capabilities in their hands. The mouse functions with a time-of-flight sensor for x-axis and an ultrasonic sensor for y-axis. The sensors connect to an Arduino board which maps the sensor data to a pixel range which matches a laptop display. The data is sent via serial port to a python program, which position’s the laptop’s mouse according to the data. 
+
+
+
+To use the project, connect the Arduino circuit to the laptop’s USB port. Open the Arduino code, verify the program is set to run on an Arduino Nano, verify the USB port is selected, and run the code. Next run the python code in Terminal. The user simply moves their hand within range of the two sensors (set perpendicularly to each other) to control the mouse.
